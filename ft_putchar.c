@@ -6,7 +6,7 @@
 /*   By: agarcia2 <agarcia2@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 17:40:39 by agarcia2          #+#    #+#             */
-/*   Updated: 2025/10/25 18:02:09 by agarcia2         ###   ########.fr       */
+/*   Updated: 2025/11/03 12:29:17 by agarcia2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,5 @@
 
 int	ft_putchar(int c)
 {
-	write(1, &c, 1);
-	return (c);
+	return (write(1, &c, 1));
 }
